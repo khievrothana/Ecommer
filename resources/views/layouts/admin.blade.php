@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="admin-themes-lab">
     <meta name="author" content="themes-lab">
     <link rel="shortcut icon" href="../assets/global/images/favicon.png" type="image/png">
-    <title>Make Admin Template &amp; Builder</title>
+    <title>Ecommcer</title>
     <link href="{{asset('assets/global/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('assets/global/css/theme.css')}}" rel="stylesheet">
     <link href="{{asset('assets/global/css/ui.css')}}" rel="stylesheet">
     <link href="{{asset('assets/layout.css')}}" rel="stylesheet">
-    <!-- BEGIN PAGE STYLE -->
     <link href="{{asset('assets/global/plugins/metrojs/metrojs.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/global/plugins/maps-amcharts/ammap/ammap.min.css')}}" rel="stylesheet">
-    <!-- END PAGE STYLE -->
     <script src="{{asset('assets/global/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js')}}"></script>
   </head>
   <!-- BEGIN BODY -->
@@ -901,6 +899,8 @@
     <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a> 
     <script src="{{asset('assets/global/plugins/jquery/jquery-1.11.1.min.js')}}"></script>
     <script src="{{asset('assets/global/plugins/jquery/jquery-migrate-1.2.1.min.js')}}"></script>
+    <script src="{{asset('assets/global/js/angular.min.js')}}"></script>
+    <script src="{{asset('assets/global/js/angular-route.min.js')}}"></script>
     <script src="{{asset('assets/global/plugins/jquery-ui/jquery-ui-1.11.2.min.js')}}"></script>
     <script src="{{asset('assets/global/plugins/gsap/main-gsap.min.js')}}"></script>
     <script src="{{asset('assets/global/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
@@ -927,9 +927,9 @@
     <script src="{{asset('assets/global/js/widgets/todo_list.js')}}"></script>
     <script src="{{asset('assets/global/plugins/metrojs/metrojs.min.js')}}"></script> 
     <script src="{{asset('assets/global/plugins/skycons/skycons.min.js')}}"></script>
-    <script src="{{asset('assets/global/js/pages/dashboard.js')}}"></script>
     <!-- END PAGE SCRIPT -->
     <script src="{{asset('assets/layout.js')}}"></script>
+    <script src="{{asset('assets/app.js')}}"></script>
   </body>
 </html>
 
