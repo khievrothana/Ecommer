@@ -3,17 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="admin-themes-lab">
-    <meta name="author" content="themes-lab">
-    <link rel="shortcut icon" href="../assets/global/images/favicon.png" type="image/png">
     <title>Ecommcer</title>
     <link href="{{asset('assets/global/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('assets/global/css/theme.css')}}" rel="stylesheet">
     <link href="{{asset('assets/global/css/ui.css')}}" rel="stylesheet">
     <link href="{{asset('assets/layout.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/global/plugins/metrojs/metrojs.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/global/plugins/maps-amcharts/ammap/ammap.min.css')}}" rel="stylesheet">
-    <script src="{{asset('assets/global/plugins/modernizr/modernizr-2.6.2-respond-1.1.0.min.js')}}"></script>
+    <link href="{{asset('assets/custom.css')}}" rel="stylesheet">
   </head>
   <!-- BEGIN BODY -->
   <body class="fixed-topbar fixed-sidebar theme-sdtl color-default dashboard">
@@ -30,9 +25,9 @@
         </div>
         <div class="sidebar-inner">
           <ul class="nav nav-sidebar">
-            <li class=" nav-active active"><a href="dashboard.html"><i class="icon-home"></i><span>Dashboard</span></a></li>
+            <li class=" nav-active active"><a href="#/"><i class="icon-home"></i><span>ការកំណត់ អនុមត្ត័</span></a></li>
             <li class="nav-parent">
-              <a href="#"><i class="icon-puzzle"></i><span>Builder</span> <span class="fa arrow"></span></a>
+              <a href="#"><i class="icon-puzzle"></i><span>គ្រប់គ្រងផលិតផល</span> <span class="fa arrow"></span></a>
               <ul class="children collapse">
                 <li><a target="_blank" href="../../admin-builder/index.html"> Admin</a></li>
                 <li><a href="page-builder/index.html"> Page</a></li>
@@ -40,14 +35,14 @@
               </ul>
             </li>
             <li class="nav-parent">
-              <a href="#"><i class="icon-bulb"></i><span>Mailbox</span> <span class="fa arrow"></span></a>
+              <a href="#"><i class="icon-bulb"></i><span>គ្រប់គ្រងរូបភាព</span> <span class="fa arrow"></span></a>
               <ul class="children collapse">
                 <li><a href="mailbox.html"> Inbox</a></li>
                 <li><a href="mailbox-send.html"> Send Email</a></li>
               </ul>
             </li>
             <li class="nav-parent">
-              <a href=""><i class="icon-screen-desktop"></i><span>UI Elements</span><span class="fa arrow"></span></a>
+              <a href=""><i class="icon-screen-desktop"></i><span>ប្រភេទមុខទំនិញ</span><span class="fa arrow"></span></a>
               <ul class="children collapse">
                 <li><a href="ui-buttons.html"> Buttons</a></li>
                 <li><a href="ui-components.html"> Components</a></li>
@@ -64,7 +59,7 @@
               </ul>
             </li>
             <li class="nav-parent">
-              <a href=""><i class="icon-layers"></i><span>Layouts</span><span class="fa arrow"></span></a>
+              <a href=""><i class="icon-layers"></i><span>ការបញ្ជាទិញ</span><span class="fa arrow"></span></a>
               <ul class="children collapse">
                 <li><a href="layouts-api.html"> Layout API</a></li>
                 <li><a href="layout-topbar-menu.html"> Topbar Menu</a></li>
@@ -76,7 +71,7 @@
               </ul>
             </li>
             <li class="nav-parent">
-              <a href=""><i class="icon-note"></i><span>Forms </span><span class="fa arrow"></span></a>
+              <a href=""><i class="icon-note"></i><span>អតិថិជន </span><span class="fa arrow"></span></a>
               <ul class="children collapse">
                 <li><a href="forms.html"> Forms Elements</a></li>
                 <li><a href="forms-validation.html"> Forms Validation</a></li>
@@ -88,7 +83,7 @@
               </ul>
             </li>
             <li class="nav-parent">
-              <a href=""><i class="fa fa-table"></i><span>Tables</span><span class="fa arrow"></span></a>
+              <a href=""><i class="fa fa-table"></i><span>ការនាំចូល</span><span class="fa arrow"></span></a>
               <ul class="children collapse">
                 <li><a href="tables.html"> Tables Styling</a></li>
                 <li><a href="tables-dynamic.html"> Tables Dynamic</a></li>
